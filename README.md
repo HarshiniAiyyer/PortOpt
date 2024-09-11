@@ -40,7 +40,22 @@ SamplingVQE is another quantum variational algorithm aimed at solving optimizati
 
 To install the required packages, run the following command:
 
-'pip install requirements.txt'
+```bash
+pip install -r requirements.txt
+```
+
+## Quantum Backend
+
+This project uses **Qiskit** for implementing quantum algorithms. The local simulators like **qasm_simulator** and **statevector_simulator** are used for testing. To run the code on actual quantum hardware, you need to set up an IBMQ account.
+
+## Results and Conclusion
+
+This project compares the performance of classical optimization techniques with quantum approaches. Both the **Hierarchical Risk Parity (HRP)** model and **Efficient Frontier** were analyzed, while the **QAOA** and **SamplingVQE** algorithms were employed to optimize the same portfolio using quantum computing. The results demonstrate the potential of quantum algorithms for portfolio optimization, although further advancements are needed for practical application.
+
+## Acknowledgements
+
+We extend our gratitude to the developers of **Qiskit**, **Pandas**, **Numpy**, and **Matplotlib**, whose tools have been instrumental in this research. Special thanks to the **Qiskit Community** for making quantum computing accessible.
+
 
 
 

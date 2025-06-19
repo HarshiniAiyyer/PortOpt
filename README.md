@@ -1,4 +1,4 @@
-# QuantOpt
+# PortOpt
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Qiskit](https://img.shields.io/badge/Qiskit-0.39.0-brightgreen)
